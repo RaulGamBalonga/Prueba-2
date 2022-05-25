@@ -11,7 +11,7 @@ const GreatGrandchild = (props) =>  {
         <div className="container">
             <h4>Great Grand child </h4>
             <p>{props.gift}</p>
-            <p>{GiftContext.gift}</p>
+            <p>{giftContext.gift}</p>
             <p>{gift}</p>
             <button
                 onClick={() => setGiftState("football")}
